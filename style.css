@@ -1,0 +1,104 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* border: 1px solid black; */
+}
+.main1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 250px;
+    flex-direction: column;
+}
+/* .heading{
+    text-align: center;
+    margin-top: 50px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+} */
+.main{
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+    flex-direction: column;
+    width: 500px;
+    height: 500px;
+   background: url(image/image-removebg-preview.png);
+   background-size: cover; 
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-bottom: 100px;
+}
+.logo{
+    width: 80px;
+    /* margin-bottom: 20px; */
+    margin-top: 30px;
+    background-blend-mode: multiply;
+    background-color: transparent;
+}
+.text{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: blueviolet;
+    border: 1px solid blueviolet;
+    width: 260px;
+    text-align: center;
+    font-size: larger;
+    margin-top: 0px;
+    /* margin-bottom: 50px; */
+}
+.boy{
+    width: 150px;
+    margin-top: 30px;
+}
+.name{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: 20px;
+}
+.courseNames{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-top: 30px;
+}
+.course{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: 15px;
+}
+.span1{
+    border-bottom: 2px solid black;
+    margin-left: 5px;
+}
+.fathername , .cnicnumber , .nametext , .coursetext{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: 15px;
+}
+.note{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: large;
+    width: 400px;
+    margin-top: 50px;
+}
+.main2{
+    width: 500px;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: url(image/image-removebg-preview.png);
+    background-size: cover; 
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+/* @media  screen and (min-width: 0px) and (max-width: 0px) {
+    .main1{
+        display: none;
+    }
+} */
+
+
+
+
+
+
+
+
